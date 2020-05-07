@@ -1,21 +1,23 @@
 {
-  "name": "sails-helper",
-  "version": "3.2.0",
-  "description": "sails helper and middleware functions",
+  "name": "@switchless-io/util",
+  "version": "3.2.1",
+  "description": "helpers and middleware functions for node, express based framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "./node_modules/jsdoc-to-markdown/bin/cli.js  -t readme.start helper.js middleware.js index.js > readme.md"
   },
+  "files": ["index.js", "middleware.js", "helper.js"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aptro/sails-helper.git"
+    "url": "git+https://github.com/switchless-io/switchless-util.git"
   },
   "author": "aptro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aptro/sails-helper/issues"
+    "url": "https://github.com/switchless-io/switchless-util/issues"
   },
-  "homepage": "https://github.com/aptro/sails-helper#readme",
+  "homepage": "https://github.com/switchless-io/switchless-util#readme",
   "dependencies": {
     "async": "^2.6.2",
     "aws-sdk": "^2.435.0",
@@ -28,5 +30,7 @@
     "sanitize-html": "^1.20.1",
     "winston": "^2.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jsdoc-to-markdown": "^5.0.3"
+  }
 }
