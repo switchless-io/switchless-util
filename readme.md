@@ -16,6 +16,12 @@
 Helper and middleware function for node and express based apps.
 
 **Example**  
+Installation
+```sh
+npm install @switchless-io/util
+```
+
+Usage
 ```js
 const switchlessUtil = require('@switchless/util')
 ```
