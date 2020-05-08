@@ -108,12 +108,6 @@ module.exports = {
 					handleExceptions: true,
 					humanReadableUnhandledException: true,
 					timestamp: true
-				}),
-				new (logstashErrorTransporter)({
-					level: 'error',
-					handleExceptions: true,
-					humanReadableUnhandledException: false,
-					timestamp: true
 				})
 			]
 		});
