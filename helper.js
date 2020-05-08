@@ -89,7 +89,16 @@ module.exports = {
 		var sentLogLevel = level ? level : 'info';
 
 		var logger = new winston.Logger({
-			levels: sailsLogLevels,
+			//sails log levels
+			levels: {
+				silent: 0,
+				error: 1,
+				warn: 2,
+				info: 3,
+				verbose: 4,
+				debug: 5,
+				silly: 6
+			},
 			exitOnError: false,
 			transports: [
 				new (winston.transports.Console)({
