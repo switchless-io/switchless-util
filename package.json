@@ -1,6 +1,6 @@
 {
   "name": "@switchless-io/util",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "description": "helpers and middleware functions for node, express based framework",
   "main": "index.js",
   "scripts": {
