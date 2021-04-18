@@ -1,13 +1,17 @@
 {
   "name": "@switchless-io/util",
-  "version": "3.2.5",
+  "version": "3.3.0",
   "description": "helpers and middleware functions for node, express based framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "./node_modules/jsdoc-to-markdown/bin/cli.js  index.js helper.js middleware.js > readme.md"
   },
-  "files": ["index.js", "middleware.js", "helper.js"],
+  "files": [
+    "index.js",
+    "middleware.js",
+    "helper.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/switchless-io/switchless-util.git"
@@ -22,11 +26,10 @@
     "async": "^2.6.2",
     "aws-sdk": "^2.435.0",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "ratelimiter": "^3.3.0",
     "redis": "^2.8.0",
-    "request": "^2.88.0",
     "sanitize-html": "^1.20.1",
     "winston": "^2.4.1"
   },
